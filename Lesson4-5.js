@@ -10,12 +10,7 @@ var isOdd = function (i) {
 }; 
    
 var isEven = function (i) {
-  if (!isOdd(i)) {
-    return true;
-  }
-  else {
-      return false;
-    }
+  return !isOdd(i)
 };
 
 console.log(isOdd(3));
